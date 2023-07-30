@@ -16,11 +16,22 @@ export default function Info() {
 
         <p className="dev">Developer</p>
         <div className="btn">
-            <a href="mailto:jjk.godoy@gmail.com"><button className="button button1" >Email</button></a>
+            <a href="mailto:jjk.godoy@gmail.com">
+                <img src="../img/email.png" className="footer-icon" alt="" />
+            </a>
 
             {/* <Button variant="primary">Primary</Button> */}
-            <a href="https://www.linkedin.com/in/johnjosephgodoy/" ><button className="button button2">LinkedIn</button></a>
-            <a href="https://wa.me/55041991814154" ><button className="button button3">Whatsapp</button></a>
+            <a href="https://www.linkedin.com/in/johnjosephgodoy/" >
+                <img src=".//img/lkdn.png" className="footer-icon" alt="" />
+            </a>
+            <a href="https://wa.me/55041991814154" >
+                <img src="../img/wpp.png" alt="" className="footer-icon" />
+            </a>
+            <div>
+                <a href="https://github.com/johnhypnosisbr" className="">
+                    <img src="../img/github-icon.png" alt="" className="footer-icon" />
+                </a>
+            </div>
         </div>
     </div>
     )
