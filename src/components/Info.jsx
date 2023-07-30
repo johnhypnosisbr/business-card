@@ -1,6 +1,5 @@
 import React from "react"
 import mypic from "/img/2.png"
-import { Button } from "bootstrap"
 
 export default function Info() {
     return (<div className="info">
