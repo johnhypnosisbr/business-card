@@ -4,25 +4,30 @@
 
 body {
   margin: 0;
-  background-color: #23252C;
+  background-color: #a5aabb;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 
-.DP {
+.info {
+  text-align: center;
+}
+
+.mypic {
+  margin-top: 10px;
   width: 265px;
   height: 265px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 
 .container {
-  background-color: #1A1B21;
+  background-color: #101f6f;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 8px 10px rgb(0, 0, 0, 0.2);
-  width: min-content;
+  width: 500px;
 }
 
 .name {
@@ -45,6 +50,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 13.8px;
   line-height: 100%;
+  letter-spacing: 2px;
 }
 
 .btn {
@@ -70,33 +76,31 @@ h1 {
   font-family: Inter, sans-serif;
 }
 
-.button2 {
-  background-color: #1b70d1;
+.button {
   color: white;
   border-radius: 5px;
   padding: 7px;
-  width: 90px;
+  width: 70px;
   font-weight: 600;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
   border: none;
+}
+
+.button2 {
+  background-color: #1b70d1;
 }
 
 .button1 {
-  background-color: rgb(1, 158, 22);
-  color: #ffffff;
-  border-radius: 5px;
-  border: none;
-  width: 90px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-  height: -webkit-fill-available;
+  background-color: #d11b1b;
+}
+
+.button3 {
+  background-color: #42d11b;
 }
 
 .tags {
-  background-color: #161619;
+  background-color: #101f6f;
   border-radius: 0px 0px 10px 10px;
   display: flex;
   justify-content: space-around;
@@ -157,4 +161,13 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.footer-icon {
+  max-width: 1.4rem;
+}
+
+.about {
+  text-align: justify;
+  line-height: 110%;
 }

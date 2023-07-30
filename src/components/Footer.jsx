@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="tags">
             <footer>
                 <a href="https://github.com/johnhypnosisbr" className="">
-                    <i class="fa-brands fa-github"></i>
+                    <img src="../img/github-icon.png" alt="" className="footer-icon" />
                 </a >
                 <a href="https://github.com/ZainAsif767" className="">
 
