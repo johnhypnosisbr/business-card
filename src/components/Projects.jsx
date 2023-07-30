@@ -4,15 +4,15 @@ function Projects() {
     return (
         <div className="projects"><h1>Projects</h1>
             <a href="https://nomealeatorio1.vercel.app/">
-                <button className="button button1">
+                <button className="button button2">
                     ECOMMERCE
                 </button>
             </a>
-            <a href="/landingpage">
+            {/* <a href="/landingpage">
                 <button className="button button2">
                     LANDING PAGE
                 </button>
-            </a>
+            </a> */}
         </div>
     )
 }
