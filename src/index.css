@@ -26,8 +26,11 @@ body {
   background-color: #101f6f;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 0 8px 10px rgb(0, 0, 0, 0.2);
-  width: 31.25rem;
+  width: 80%;
+  margin: auto;
   padding: 10px 20px;
 }
 
