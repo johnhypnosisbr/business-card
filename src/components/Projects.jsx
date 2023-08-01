@@ -5,14 +5,21 @@ function Projects() {
         <div className="projects"><h1>Projects</h1>
             <a href="https://nomealeatorio1.vercel.app/">
                 <button className="button button2">
-                    ECOMMERCE
+                    REACT
                 </button>
             </a>
-            {/* <a href="/landingpage">
+            <br></br>
+            <a href="https://nomealeatorio1.vercel.app/">
                 <button className="button button2">
-                    LANDING PAGE
+                    JS
                 </button>
-            </a> */}
+            </a>
+            <br></br>
+            <a href="https://nomealeatorio1.vercel.app/">
+                <button className="button button2">
+                    PHP
+                </button>
+            </a>
         </div>
     )
 }
