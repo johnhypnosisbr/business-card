@@ -7,7 +7,7 @@ import Projects from "./components/Projects"
 
 export default function App() {
   return (
-    <div className="container">
+    <div className="container" style={{ maxWidth: "600px" }}>
       <div className="bg">
       </div>
       <Info />

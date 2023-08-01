@@ -8,7 +8,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 110vh;
+  max-height: auto;
 }
 
 .info {
@@ -187,9 +188,14 @@ a:hover {
 
 .footer-icon {
   max-width: 2rem;
+
 }
 
 .about {
   text-align: justify;
   line-height: 110%;
+}
+
+.interest {
+  text-align: center;
 }
