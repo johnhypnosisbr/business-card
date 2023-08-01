@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Interest() {
     return (
-        <div className="interest">
+        <div className="interest" style={{fontFamily: "sans-serif"}}>
             <img src="../img/react.png" alt="" className="footer-icon" />
             <p style={{ color: "white" }}>Aplicar framework de front-end para desenvolver aplicação web (React, Laravel, Postman) .</p>
 

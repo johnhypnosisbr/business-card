@@ -2,7 +2,8 @@ import React from 'react'
 
 function Projects() {
     return (
-        <div className="projects"><h1>Projects</h1>
+        <div className="projects">
+            <h2 style={{fontFamily: "sans-serif", color: "white"}}>P R O J E T O S</h2>
             <a href="https://nomealeatorio1.vercel.app/">
                 <button className="button button2">
                     REACT

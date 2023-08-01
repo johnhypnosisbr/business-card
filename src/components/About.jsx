@@ -11,7 +11,7 @@ export default function About() {
         }
     }
     return (
-        < div className="about text-center d-flex flex-column" >
+        < div style={{fontFamily: "sans-serif"}} className="about text-center d-flex flex-column" >
 
             <div style={{ display: "flex", alignItems: "center" }}>
                 {lingua == 'en' ? (

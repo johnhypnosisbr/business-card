@@ -4,7 +4,6 @@ import Footer from "./components/Footer"
 import Info from "./components/Info"
 import Interest from "./components/Interest"
 import Projects from "./components/Projects"
-
 export default function App() {
   return (
     <div className="container" style={{ maxWidth: "600px" }}>
