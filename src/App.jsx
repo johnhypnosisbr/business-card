@@ -10,10 +10,10 @@ export default function App() {
       <div className="bg">
       </div>
       <Info />
+      <Projects />
       <About />
       <Interest />
       <Footer />
-      <Projects />
     </div>
   )
 }
